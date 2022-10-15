@@ -1,0 +1,69 @@
+#python Operatoes
+#Arithmetic Operators
+
+print(10+20)#Addition
+print(20-10)#Substraction
+print(10*20)#multiplication
+print(20/10)#division
+print(20%10)#Modulous
+print(15//4)#floor division 7.5 but it the results to the nearsest whole number
+#Assingment Operator
+a=20
+
+
+a+=5#+= it is same as a=a*5
+print(a)
+a*=5# it is same as a=a*5
+
+#print(a)
+a/=5# it is same as a=/5
+print(a)
+
+
+
+
+#exponential
+
+a=2**5 #exponential
+print(a)
+a//=3#a=a//3
+a**2#a=a**2 i.e.20*20
+print(a)
+
+#comparison Operator
+print(3==3)#Equal
+print(3!=4)#not equal
+print(3>4)#greater  than
+print(3<4)#lesser  than 
+print(3>=4)#greater than equal
+print(3<=4)#less than equal
+
+
+
+
+
+#logical operators
+x=2
+
+print(x<5 and x<8)#Return True if both the statement are true
+print(x<5 and x>8)
+#print(x<5 || x>8)#Return true if anyone of the condition is met 
+#print(x<5 or x>8)#Return true if anyone of the condition is met
+print(x>3 or x>10)
+print(not(x>3 or x>10))#reverse the result for example--if the result is true it will return false or vise versa
+
+
+
+
+
+
+#identity Operators
+a=[10, 20]
+b=[10,20]
+c=a
+a.remove(20)
+print(a)
+print(b)
+print(c)
+print(a is c)#Returns true if both the variable are the same object pointing to the same memory location
+print(b is c)#it will return false because b is not pointing to the same memory location
